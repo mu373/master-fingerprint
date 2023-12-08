@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bip32": "^4.0.0",
+    "bs58check": "^3.0.1",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "name": "master-fingerprint",
+  "version": "1.0.0",
+  "main": "fingerprint.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}

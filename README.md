@@ -1,4 +1,5 @@
 # xfp: master fingerprint
+Reproduce master fingerprint from XPUB
 
 ## Overview
 Most of the wallet softwares provide 8 digit hex identifiers for each wallet. This is officially defined as "key fingerprint" in [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#user-content-Key_identifiers), and is often labeled as "master fingerprint" (i.e., COLDCARD and Sparrow).

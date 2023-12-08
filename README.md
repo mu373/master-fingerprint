@@ -7,6 +7,7 @@ Master fingerprint shown in COLDCARD is derived from the top-level (`m/`) master
 
 ## Steps
 - Export Generic JSON wallet file from COLDCARD [(link)](https://github.com/Coldcard/firmware/blob/master/docs/generic-wallet-export.md)
+    - Note that xpub shown in Sparrow wallet is for specific wallet system (i.e., Native Segwit). This is different from the xpub of root path.
 - Copy the `xpub` from the root level, not for individual wallet systems
 - Paste the xpub in the script
 - Run the script: `node fingerprint.js`

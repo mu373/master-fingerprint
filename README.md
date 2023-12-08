@@ -19,3 +19,6 @@ npm install
 vim fingerprint.js # Edit xpub
 node fingerprint.js
 ```
+
+## License
+[MIT](https://github.com/mu373/master-fingerprint/blob/main/LICENSE)

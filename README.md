@@ -13,7 +13,7 @@ The master fingerprint shown in COLDCARD is derived from the top-level (`m/`) ma
 - Paste the xpub in the script
 - Run the script: `node fingerprint.js`
 
-## Setup
+## Usage
 ```sh
 npm install
 vim fingerprint.js # Edit xpub

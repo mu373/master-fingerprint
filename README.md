@@ -2,7 +2,7 @@
 Reproduce master fingerprint from XPUB
 
 ## Overview
-Most wallet software provides 8-digit hex identifiers for each wallet. This is officially defined as a "key fingerprint" in [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#user-content-Key_identifiers), and is often labeled as a "master fingerprint" in major wallet hardware/software (e.g., COLDCARD and Sparrow).
+Most wallet software provides 8-digit hex identifiers for each wallet. This is officially defined as a "key fingerprint" in [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#user-content-Key_identifiers), and is often labeled as a "master fingerprint" in major wallet hardware/software (e.g., COLDCARD and Sparrow). Since the master fingerprint helps you distinguish the wallet with a short identifier, you can easily ensure that you are accessing the intended wallet, for example, the wallet with the correct BIP39 passphrase.
 
 The master fingerprint shown in COLDCARD is derived from the top-level (`m/`) master xpub, regardless of your choice of wallet systems such as Native Segwit (BIP-84). If you want to reproduce the master fingerprint from xpub by yourself, you can do so with this script.
 
